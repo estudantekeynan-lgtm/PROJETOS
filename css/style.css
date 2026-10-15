@@ -69,7 +69,7 @@ nav a {
 
 #Inicio {
     min-height: 100vh;
-    background-image: url("Industriaaa.jpg");
+    background-image: url(Industriaaa.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -141,7 +141,7 @@ button {
 #Fornecedores {
     min-height: 100vh;
     margin: 0;
-    background-image: url("fundo_fornecedores.png");
+    background-image: url(fundo_fornecedores.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -359,7 +359,7 @@ footer {
 
 .body-s {
     min-height: 100vh;
-    background-image: url("fornecedores-bg.jpg");
+    background-image: url(fornecedores-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
