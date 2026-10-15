@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Fornecedores</title>
+</head>
+
+<body id="Fornecedores">
+
+    <header>
+        <nav class="Menu-F">
+            <a id="I" href="index.html">Início</a>
+            <a href="Sobree.html">Sobre</a>
+            <a href="fornecedores.html">Fornecedores</a>
+            <a href="Categoria.html">Categoria</a>
+            <a href="Contato.html">Contato</a>
+        </nav>
+
+        <section id="Titulo-F">
+            <h1 class="Azul">Catálogo</h1>
+            <h1 class="branco">Fornecedores</h1>
+        </section>
+    </header>
+
+    <main>
+
+        <section class="Pesquisa">
+            <input
+                type="text"
+                id="Pesquisar"
+                placeholder="Pesquisar fornecedor..."
+                onkeyup="pesquisar()">
+
+            <button type="button" onclick="pesquisar()">
+                🔎
+            </button>
+        </section>
+
+        <section class="fornecedores-container">
+
+            <ul class="Fornecedores">
+
+                <li class="fornecedor-card">
+                    <img
+                        src="img/01_materiais_eletricos_automacao_epis.png"
+                        alt="Materiais elétricos, automação e EPIs">
+
+                    <div class="card-conteudo">
+                        <h2>Materiais elétricos</h2>
+
+                        <p>
+                            Materiais elétricos, automação industrial
+                            e equipamentos de proteção.
+                        </p>
+
+                        <a href="https://elemetron.com.br/">
+                            Ver fornecedor
+                        </a>
+                    </div>
+                </li>
+
+                <li class="fornecedor-card">
+                    <img
+                        src="img/02_manutencao_hidraulica_pneumatica 1.png"
+                        alt="Manutenção hidráulica e pneumática">
+
+                    <div class="card-conteudo">
+                        <h2>Manutenção hidráulica</h2>
+
+                        <p>
+                            Produtos hidráulicos e pneumáticos
+                            para manutenção industrial.
+                        </p>
+
+                        <a href="#">
+                            Ver fornecedor
+                        </a>
+                    </div>
+                </li>
+
+                <li class="fornecedor-card">
+                    <img
+                        src="img/03_maquinas_perifericos_automacao.png"
+                        alt="Máquinas e periféricos para automação">
+
+                    <div class="card-conteudo">
+                        <h2>Máquinas e periféricos</h2>
+
+                        <p>
+                            Equipamentos, máquinas e periféricos
+                            para automação industrial.
+                        </p>
+
+                        <a href="#">
+                            Ver fornecedor
+                        </a>
+                    </div>
+                </li>
+
+                <li class="fornecedor-card">
+                    <img
+                        src="img/04_atacado_materiais_ferragens.png"
+                        alt="Atacado de materiais e ferragens">
+
+                    <div class="card-conteudo">
+                        <h2>Materiais e ferragens</h2>
+
+                        <p>
+                            Materiais para construção,
+                            manutenção e reformas.
+                        </p>
+
+                        <a href="https://www.lojadomecanico.com.br/?adj_t=1tapat56&adj_campaign=MONKS_MS_F_PMAX_Curva_A_&utm_source=bing&utm_medium=cpc&utm_campaign=MONKS_MS_F_PMAX_Curva_A_&msclkid=ef59ba0df6bf1eca760fd0dd497208bd&utm_term=www.lojadomecanico.com.br&utm_content=Curva%20A">
+                            Ver fornecedor
+                        </a>
+                    </div>
+                </li>
+
+                <li class="fornecedor-card">
+                    <img
+                        src="img/05_materiais_eletricos_automacao_epis_2.png"
+                        alt="Materiais elétricos e EPIs">
+
+                    <div class="card-conteudo">
+                        <h2>Automação e EPIs</h2>
+
+                        <p>
+                            Soluções para instalações elétricas,
+                            automação e segurança.
+                        </p>
+
+                        <a href="https://elemetron.com.br/">
+                            Ver fornecedor
+                        </a>
+                    </div>
+                </li>
+
+                <li class="fornecedor-card">
+                    <img
+                        src="img/06_manutencao_hidraulica_pneumatica_2.png"
+                        alt="Produtos hidráulicos e pneumáticos">
+
+                    <div class="card-conteudo">
+                        <h2>Produtos hidráulicos</h2>
+
+                        <p>
+                            Componentes para manutenção hidráulica
+                            e pneumática.
+                        </p>
+
+                        <a href="#">
+                            Ver fornecedor
+                        </a>
+                    </div>
+                </li>
+
+                <li class="fornecedor-card">
+                    <img
+                        src="img/07_maquinas_perifericos_automacao_2.png"
+                        alt="Máquinas e periféricos industriais">
+
+                    <div class="card-conteudo">
+                        <h2>Automação industrial</h2>
+
+                        <p>
+                            Máquinas e periféricos para melhorar
+                            a produtividade da sua empresa.
+                        </p>
+
+                        <a href="https://www.lojadomecanico.com.br/?adj_t=1tapat56&adj_campaign=MONKS_MS_F_PMAX_Curva_A_&utm_source=bing&utm_medium=cpc&utm_campaign=MONKS_MS_F_PMAX_Curva_A_&msclkid=ef59ba0df6bf1eca760fd0dd497208bd&utm_term=www.lojadomecanico.com.br&utm_content=Curva%20A">
+                            Ver fornecedor
+                        </a>
+                    </div>
+                </li>
+
+                <li class="fornecedor-card">
+                    <img
+                        src="img/08_atacado_materiais_ferragens_2.png"
+                        alt="Materiais e ferragens no atacado">
+
+                    <div class="card-conteudo">
+                        <h2>Atacado</h2>
+
+                        <p>
+                            Materiais e ferragens para compras
+                            em grande quantidade.
+                        </p>
+
+                        <a href="#">
+                            Ver fornecedor
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+
+        </section>
+
+    </main>
+
+    <footer class="footer-f">
+
+        <div class="nome-grupo">
+            <p class="devs">Dev's</p>
+            <p class="Breach">Breach</p>
+        </div>
+
+        <div>
+            <p class="texto-footer">
+                Um projeto acadêmico desenvolvido por alunos
+                do SENAI - LIMEIRA &copy; 2026
+            </p>
+        </div>
+
+        <div id="resto">
+
+            <p>
+                ☎️ (19) 9 99133-7179
+            </p>
+
+            <p>
+                <img
+                    src="img/github-.png"
+                    alt="Logo do GitHub">
+
+                <a
+                    href="https://github.com/estudantekeynan-lgtm/logica_de_programacao2/tree/main/PSOF"
+                    target="_blank">
+                    GitHub
+                </a>
+            </p>
+
+            <p>
+                📩 devsbreach@gmail.com
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- <script>
+        function pesquisar( ) {
+            const campoPesquisa = document.getElementById("Pesquisar");
+
+            const textoPesquisa = campoPesquisa.value
+                .toLowerCase()
+                .trim();
+
+            const cards = document.querySelectorAll(".fornecedor-card");
+
+            cards.forEach(function(card) {
+                const textoCard = card.textContent.toLowerCase();
+
+                if (textoCard.includes(textoPesquisa)) {
+                    card.style.display = "";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+        }
+    </script> -->
+
+</body>
+
+</html>
