@@ -53,6 +53,7 @@ nav a {
 
 .Menu {
     display: flex;
+  
     justify-content: space-between;
     height: 75px;
     margin: 30px;
@@ -672,3 +673,55 @@ footer {
     color: #4169e1;
 }
 
+.whatsapp-flutuante {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 1000;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 14px 22px;
+    border-radius: 35px;
+
+    background-color: #25d366;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3 );
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.whatsapp-flutuante:hover {
+    background-color: #1ebe5d;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.icone-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+
+    background-color: #ffffff;
+    color: #25d366;
+    font-size: 17px;
+}
+
+/* Ajuste para telemóveis */
+@media (max-width: 600px) {
+    .whatsapp-flutuante {
+        right: 16px;
+        bottom: 16px;
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+}
