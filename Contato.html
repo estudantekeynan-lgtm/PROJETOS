@@ -14,28 +14,18 @@
        <a id="I" href="index.html">Inicio</a>
             <a href ="Sobree.html">Sobre</a>
             <a href="fornecedores.html">Fornecedores</a>
-            <a href="Categoria.html"> Categoria</a>
             <a href="Contato.html">Contato</a>
       </Nav>
     
     </Header>
     <h1 class="Contato">Contato</h1>
-      <p class="texto-c">Entre em contato para cadastrar um fornecedor</p>
+      <p class="texto-c">Entre em contato para cadastrar um fornecedor <br> ou buscar informações sobre um</p>
   </body>
-   
-  <section class="informacoes" >
-    <p class="info">E-MAIL</p>
-        <p>devsbreach@gmail.com</p>
-    <p class="info">TELEFONE</p>
-        <p> (19)9 99133 7179</p>
-    <p class="info">CNPJ</p>
-        <p>999.999.999/9999-99</p>
-        
-  </section>
+
 
     <main>
         <div class="container">
-          <form action="action_page.php">
+          <form id="contact-form" action="action_page.php">
 
             <label for="fname"></label>
             <input type="text" id="fname" name="firstname" placeholder="Nome">
@@ -62,6 +52,7 @@
             <input type="submit" value="Enviar">
 
           </form>
+          <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
         </div>
     </main>
     <br>
@@ -96,5 +87,4 @@
                     </p>
         </div>
     </footer>
-    
-</html>
+  </body>
