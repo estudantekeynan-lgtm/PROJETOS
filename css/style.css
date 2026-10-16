@@ -363,7 +363,7 @@ footer {
 
 .body-s {
     min-height: 100vh;
-    background-image: url(contato.png);
+    background-image: url(Gemini_Generated_Image_e46o6ze46o6ze46o.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -429,6 +429,7 @@ footer {
     position: relative;
     top: 20px;
     color: #4169e1;
+    
 }
 
 .Objetivo {
@@ -453,6 +454,8 @@ footer {
     position: relative;
     top: -70px;
     left: 150px;
+    -webkit-text-stroke: 0.6px hsl(0, 0%, 100%);
+   
 }
 
 
@@ -575,9 +578,9 @@ footer {
     background-color: #f5f5f5;
     padding: 20px;
     max-width: 600px; 
-    width: calc(100% - 32px);
-    margin: 30px auto;
-    align-content: center;
+
+    margin: 50px auto;
+    /* align-content: center; */
 }
 
 .Contato {
