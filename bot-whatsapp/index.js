@@ -2,12 +2,14 @@ const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const fornecedores = require('./fornecedores.json');
 
+
+
 const client = new Client({
-  authStrategy: new LocalAuth({ clientId: 'psof-atendimento' }),
-  puppeteer: {
-    headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
-  }
+    authStrategy: new LocalAuth(),
+    puppeteer: {
+        executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    }
 });
 
 function normalizar(texto = '') {
@@ -20,7 +22,7 @@ function normalizar(texto = '') {
 
 function menu() {
   return [
-    'Olá! 👋 Você está falando com o atendimento do *PSOF — Dev’s Breach*.',
+    'Olá! 👋 Você está falando com o atendimento do *Dev’s Breach*.',
     '',
     'Posso ajudar você a encontrar fornecedores industriais.',
     '',
