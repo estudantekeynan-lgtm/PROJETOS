@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nome": "Materiais elétricos",
+    "descricao": "Materiais elétricos, automação industrial e equipamentos de proteção.",
+    "palavrasChave": ["eletrico", "eletrica", "materiais eletricos", "automacao", "epi", "epis", "protecao"],
+    "url": "https://elemetron.com.br/"
+  },
+  {
+    "id": 2,
+    "nome": "Manutenção hidráulica",
+    "descricao": "Produtos hidráulicos e pneumáticos para manutenção industrial.",
+    "palavrasChave": ["hidraulica", "pneumatica", "manutencao", "mangueira", "conexao"],
+    "url": null
+  },
+  {
+    "id": 3,
+    "nome": "Máquinas e periféricos",
+    "descricao": "Equipamentos, máquinas e periféricos para automação industrial.",
+    "palavrasChave": ["maquinas", "perifericos", "equipamentos", "automacao industrial"],
+    "url": null
+  },
+  {
+    "id": 4,
+    "nome": "Materiais e ferragens",
+    "descricao": "Materiais para construção, manutenção e reformas.",
+    "palavrasChave": ["ferragens", "construcao", "reforma", "ferramentas", "atacado"],
+    "url": "https://www.lojadomecanico.com.br/"
+  },
+  {
+    "id": 5,
+    "nome": "Automação e EPIs",
+    "descricao": "Soluções para instalações elétricas, automação e segurança.",
+    "palavrasChave": ["epi", "epis", "seguranca", "automacao", "instalacoes eletricas"],
+    "url": "https://elemetron.com.br/"
+  },
+  {
+    "id": 6,
+    "nome": "Produtos hidráulicos",
+    "descricao": "Componentes para manutenção hidráulica e pneumática.",
+    "palavrasChave": ["componentes hidraulicos", "produtos hidraulicos", "pneumaticos"],
+    "url": null
+  },
+  {
+    "id": 7,
+    "nome": "Automação industrial",
+    "descricao": "Máquinas e periféricos para melhorar a produtividade da sua empresa.",
+    "palavrasChave": ["automacao industrial", "produtividade", "maquinas"],
+    "url": "https://www.lojadomecanico.com.br/"
+  },
+  {
+    "id": 8,
+    "nome": "Atacado",
+    "descricao": "Materiais e ferragens para compras em grande quantidade.",
+    "palavrasChave": ["atacado", "grande quantidade", "compras em volume", "ferragens"],
+    "url": null
+  }
+]
