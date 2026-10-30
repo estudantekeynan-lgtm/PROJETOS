@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/contato.js" defer></script>
     
     
     <title>Título da Página</title>
@@ -38,33 +39,31 @@
 
     <main>
         <div class="container">
-          <form id="contact-form" action="action_page.php">
+        <form id="contact-form">
 
-            <label for="fname"></label>
-            <input type="text" id="fname" name="firstname" placeholder="Nome">
+    <input type="text" id="fname" name="firstname" placeholder="Nome" required>
 
-            <label for="lname"></label>
-            <input type="text" id="lname" name="lastname" placeholder="Empresa">
+    <input type="text" name="empresa" placeholder="Empresa" required>
 
-            <label for="lname"></label>
-            <input type="text" id="lname" name="lastname" placeholder="e-mail">
+    <input type="email" name="email" placeholder="E-mail" required>
 
-            <label for="lname"></label>
-            <input type="text" id="lname" name="lastname" placeholder="telefone">
+    <input type="tel" name="telefone" placeholder="Telefone" required>
 
-            <label for="country">Região</label>
-            <select id="country" name="country">
-              <option value="Limeira">Limeira</option>
-              <option value="Campinas">Campinas</option>
-              <option value="Iracemapolis">Iracemapolis</option>
-            </select>
+    <br><br><label for="country">Região</label>
+    <select id="country" name="country">
+        <option value="Limeira">Limeira</option>
+        <option value="Campinas">Campinas</option>
+        <option value="Iracemápolis">Iracemápolis</option>
+    </select>
 
-            <label for="subject">Mensagem (opcional)</label>
-            <textarea id="subject" name="subject" placeholder="Mensagem" style="height:200px"></textarea>
+    <label for="subject">Mensagem (opcional)</label>
+    <textarea id="subject" name="subject" placeholder="Mensagem" style="height:200px"></textarea>
 
-            <input type="submit" value="Enviar">
+    <input type="submit" value="Enviar">
 
-          </form>
+</form>
+
+<p id="form-message" class="form-message" role="status" aria-live="polite"></p>
           <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
         </div>
     </main>
